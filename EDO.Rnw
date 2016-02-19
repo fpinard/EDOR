@@ -1,0 +1,51 @@
+\documentclass[12pt]{article}
+
+\usepackage[francais]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[top = 2.5 cm, bottom= 2.5 cm, left = 2.5 cm, right = 2.5 cm]{geometry}
+\renewcommand{\baselinestretch}{1.5}
+
+\begin{document}
+\newlength{\larg}
+\setlength{\larg}{14.5cm}
+
+\title{
+{\rule{\larg}{1mm}}\vspace{5mm}
+\begin{tabular}{p{0cm} c}
+   & {\Huge {\textbf{Dynamique des populations}}} \\
+   & \\
+   & {\huge EXAMEN}
+\end{tabular}\\
+\vspace{2mm}
+{\rule{\larg}{1mm}}
+\vspace{2mm} \\
+\begin{tabular}{p{11cm} r}
+   & {\large  }
+\end{tabular}\\
+\vspace{1cm}
+INSA DE LYON \\3BIM}
+\vspace{5.5cm}
+
+\author{\begin{tabular}{p{13.7cm}}
+DENOUN Brice et PINARD Félix
+\end{tabular}\\
+\hline }
+\date{\today}
+\maketitle
+
+\newpage
+
+\section*{1}
+On a ici un modèle proie-prédateur, N représentant les proies et P les prédateurs. En effet, en l'absence de prédateurs, N suit une croissance logistique. Et en l'absence de proies, P suit une décroissance exponentielle. On a en plus une réponse fonctionnelle qui sature et qui tend vers 1 lorsque le nombre de proies tend vers l'infini. L'interaction favorise les prédateurs et défavorise les proies avec un coefficient de transformation de la biomasse de 1.
+
+\section*{2}
+Le paramètre $\mu$ représente la vitesse de décroissance exponentielle des prédateurs en absence de proies. Il s'exprime en $s^{-1}$ pour avoir les mêmes dimensions des deux côtés de l'égalité.
+
+\section*{3}
+Ce système peut par exemple modéliser des populations de vaches et d'herbe dans un pré, les vaches étant les prédateurs et l'herbe les proies. En absence de vaches l'herbe croît jusqu'à une limite engendrée par les propriétés du pré (quantité d'eau et de sels minéraux dans le sol, ensoleillement...). En l'absence d'herbe les vaches meurent. Quand les deux sont présents, les vaches mangent l'herbe pour se nourrir. On ne prend pas en compte le fait que d'autres animaux puissent manger l'herbe ou que les vaches puissent se nourrir d'une autre façon qu'en mangeant l'herbe. On ne considère pas non plus l'évolution des propriétés du pré en fonction du temps (passage des saisons, épuisement des ressources...).
+
+
+\end{document}	
